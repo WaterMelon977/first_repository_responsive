@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: rgb(186, 238, 236) ;
+}
+
+#navbar {
+    padding: 5px;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+    font-family: 'Satisfy', sans-serif;
+}
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.location {
+    color: tomato;
+    margin-bottom: 16px;
+}
+
+#logo {
+    height: 40px;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    font-size: 0.7rem;
+}
+
+#anthem {
+    width: 50%;
+    /* margin: 0 auto; */
+
+}
+
+#anthemimg {
+    width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Satisfy', sans-serif;
+
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+    /* text-align: center; */
+
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Satisfy', sans-serif;
+
+}
+
+.apply {
+    float: right
+}
+
+a {
+    text-decoration: none;
+}
+
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px ;
+}
+
+.form_group{
+    margin: 16px 0;
+}
+
+.form_group textarea{
+    font-family: 'Poppins';
+}
+
+.form_group input[type="checkbox"]
+{
+width: 16px;
+height:16px;
+}
+
+.form_group input[type="submit"]{
+    background-color: aqua;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+
+}
+
+#application_form label{
+    font-weight: 600;
+}
+
+#application_form input, select{
+   padding: 8px;
+   font-size: 1.3rem;
+   border-radius: 7px;
+   border: 1px solid silver;
+}
+
+#footer {
+    background-color: rgb(162, 246, 249);
+    padding: 8px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#footer_links {
+    list-style: none;
+
+    /* display: flex; */
+}
+
+#footer_links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+#copyright {
+    color: gray;
+}
+
+#jobs_table {
+    /* background-color: palegoldenrod; */
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+#jobs_table tr:nth-child(odd){
+    background-color: rgb(197, 238, 170);
+}
+
+.jobs-header-row th {
+
+border: 1px solid gray;
+background-color: rgb(32, 218, 218);
+text-align: center;
+padding: 8px;
+
+
+}
+.jobs-data-row td  {
+    border-right: 1px solid gray;
+    padding: 8px;
+}
